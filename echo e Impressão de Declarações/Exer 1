@@ -1,0 +1,27 @@
+/*## PHP: `echo` e Impressão de Declarações (25 exercícios)
+
+1.  Escreva um script PHP que imprima a frase "Olá, Mundo!" na tela.
+2.  Crie um script PHP que utilize a declaração `echo` para exibir seu nome.
+3.  Utilize `echo` para imprimir dois números inteiros separados por um espaço.
+4.  Imprima a soma de dois números inteiros usando `echo`.
+5.  Escreva um script que imprima a concatenação das strings "PHP" e "é incrível!".
+6.  Use `echo` para exibir o valor booleano `true`. O que aparece na tela?
+7.  Use `echo` para exibir o valor booleano `false`. O que aparece na tela?
+8.  Crie um script que imprima uma string contendo aspas duplas dentro.
+9.  Crie um script que imprima uma string contendo aspas simples dentro.
+10. Imprima a seguinte frase utilizando `echo`: "Este é um 'exemplo' de string."
+11. Imprima a seguinte frase utilizando `echo`: 'PHP é "muito" legal!'.
+12. Utilize `echo` para imprimir o resultado da multiplicação de 5 por 3.
+13. Imprima a frase "A variável \$nome contém o valor:" (sem exibir o valor da variável ainda).
+14. Use `echo` para imprimir uma quebra de linha usando a sequência de escape apropriada.
+15. Imprima três linhas de texto diferentes usando apenas um comando `echo`.
+16. Crie um script que imprima o valor de uma constante (defina a constante primeiro).
+17. Utilize `echo` para exibir um número decimal.
+18. Imprima a frase "O preço do produto é R\$19.99".
+19. Use `echo` para imprimir o tipo de dado de um inteiro (pesquise como fazer isso).
+20. Use `echo` para imprimir o tipo de dado de uma string.
+21. Crie um script que imprima a versão do PHP que está sendo executada.
+22. Utilize `echo` para exibir a data atual (pesquise como obter a data em PHP).
+23. Imprima a mensagem "Processando..." seguida de um ponto a cada segundo (simule isso com múltiplos `echo`).
+24. Use `echo` para exibir o conteúdo de um array (pesquise como fazer isso de forma básica).*/
+

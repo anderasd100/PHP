@@ -1,0 +1,115 @@
+Olá! Claro, com prazer te ajudo a criar esses exercícios em PHP. Aqui estão 100 exercícios cobrindo os temas que você solicitou:
+
+## PHP: `echo` e Impressão de Declarações (25 exercícios)
+
+1.  Escreva um script PHP que imprima a frase "Olá, Mundo!" na tela.
+2.  Crie um script PHP que utilize a declaração `echo` para exibir seu nome.
+3.  Utilize `echo` para imprimir dois números inteiros separados por um espaço.
+4.  Imprima a soma de dois números inteiros usando `echo`.
+5.  Escreva um script que imprima a concatenação das strings "PHP" e "é incrível!".
+6.  Use `echo` para exibir o valor booleano `true`. O que aparece na tela?
+7.  Use `echo` para exibir o valor booleano `false`. O que aparece na tela?
+8.  Crie um script que imprima uma string contendo aspas duplas dentro.
+9.  Crie um script que imprima uma string contendo aspas simples dentro.
+10. Imprima a seguinte frase utilizando `echo`: "Este é um 'exemplo' de string."
+11. Imprima a seguinte frase utilizando `echo`: 'PHP é "muito" legal!'.
+12. Utilize `echo` para imprimir o resultado da multiplicação de 5 por 3.
+13. Imprima a frase "A variável \$nome contém o valor:" (sem exibir o valor da variável ainda).
+14. Use `echo` para imprimir uma quebra de linha usando a sequência de escape apropriada.
+15. Imprima três linhas de texto diferentes usando apenas um comando `echo`.
+16. Crie um script que imprima o valor de uma constante (defina a constante primeiro).
+17. Utilize `echo` para exibir um número decimal.
+18. Imprima a frase "O preço do produto é R\$19.99".
+19. Use `echo` para imprimir o tipo de dado de um inteiro (pesquise como fazer isso).
+20. Use `echo` para imprimir o tipo de dado de uma string.
+21. Crie um script que imprima a versão do PHP que está sendo executada.
+22. Utilize `echo` para exibir a data atual (pesquise como obter a data em PHP).
+23. Imprima a mensagem "Processando..." seguida de um ponto a cada segundo (simule isso com múltiplos `echo`).
+24. Use `echo` para exibir o conteúdo de um array (pesquise como fazer isso de forma básica).
+25. Imprima a frase "Fim do script." usando `echo`.
+
+## PHP: Variáveis (25 exercícios)
+
+26. Declare uma variável chamada `$idade` e atribua o valor 25 a ela.
+27. Crie uma variável `$nome` e armazene seu nome completo nela.
+28. Declare uma variável `$preco` com o valor 99.90.
+29. Atribua a string "Programando em PHP" a uma variável chamada `$mensagem`.
+30. Declare duas variáveis, `$num1` com valor 10 e `$num2` com valor 5.
+31. Calcule a soma de `$num1` e `$num2` e armazene o resultado em uma variável `$soma`.
+32. Calcule a diferença entre `$num1` e `$num2` e armazene em `$diferenca`.
+33. Calcule o produto de `$num1` e `$num2` e armazene em `$produto`.
+34. Calcule a divisão de `$num1` por `$num2` e armazene em `$divisao`.
+35. Crie uma variável `$booleano` com o valor `true`.
+36. Declare uma variável `$nulo` e atribua o valor `null` a ela.
+37. Concatene as variáveis `$nome` e `$mensagem` (adicionando um espaço entre elas) e armazene o resultado em `$saudacao`.
+38. Utilize interpolação de strings para exibir a frase "Meu nome é [valor de \$nome] e eu tenho [valor de \$idade] anos."
+39. Crie uma variável `$cidade` e atribua o nome da sua cidade. Em seguida, imprima a frase "Eu moro em [valor de \$cidade]."
+40. Declare uma variável `$temperatura` com o valor 28.5 e imprima "A temperatura atual é de [valor de \$temperatura] graus Celsius."
+41. Crie uma variável `$ativo` com o valor `false` e imprima "O status é: [valor de \$ativo]."
+42. Declare uma variável `$contador` com o valor inicial 0 e incremente-a em 1.
+43. Declare uma variável `$decrementador` com o valor inicial 10 e decremente-a em 2.
+44. Crie uma variável `$texto1` com "Olá" e `$texto2` com "PHP". Concatene-as com um espaço no meio e armazene em `$texto_completo`.
+45. Verifique se uma variável `$vazia` está definida (mas não possui valor) usando a função apropriada.
+46. Verifique se uma variável `$existente` foi definida e possui um valor.
+47. Atribua um array com três cores a uma variável `$cores`.
+48. Acesse o primeiro elemento do array `$cores` e armazene em uma variável `$primeira_cor`.
+49. Modifique o segundo elemento do array `$cores` para uma nova cor.
+50. Crie uma variável `$objeto` e atribua um objeto stdClass vazio a ela. Adicione uma propriedade "nome" a este objeto.
+
+## PHP: Comentários (25 exercícios)
+
+51. Adicione um comentário de linha única no início de um script PHP explicando seu propósito.
+52. Adicione um comentário de linha única dentro de um bloco de código explicando uma linha específica.
+53. Utilize comentários de múltiplas linhas para descrever um bloco de código mais extenso.
+54. Comente uma linha de código que você não quer que seja executada temporariamente.
+55. Use comentários para explicar a lógica por trás de um cálculo matemático.
+56. Comente o nome e a data de criação do script no início do arquivo.
+57. Utilize comentários para descrever os parâmetros de uma função (mesmo que a função não exista ainda).
+58. Comente a saída esperada de um trecho de código.
+59. Use comentários para indicar possíveis melhorias futuras no código.
+60. Comente uma estrutura de controle (`if`, `for`, `while`) explicando sua condição ou iteração.
+61. Adicione um comentário explicando o tipo de dado de uma variável em um ponto específico do código.
+62. Utilize comentários para separar diferentes seções lógicas do seu script.
+63. Comente a atribuição de um valor a uma variável, explicando o significado desse valor.
+64. Use comentários para documentar o autor de uma determinada parte do código.
+65. Comente a inclusão de um arquivo externo usando `include` ou `require`.
+66. Adicione um comentário "TODO" para marcar uma parte do código que precisa ser revisada ou implementada.
+67. Utilize comentários para explicar o tratamento de um possível erro ou exceção (mesmo que não haja tratamento ainda).
+68. Comente a declaração de uma constante, explicando seu propósito.
+69. Use comentários para descrever os elementos de um array.
+70. Comente a criação de um objeto, explicando a classe à qual ele pertence.
+71. Adicione comentários para tornar o código mais legível para outros desenvolvedores.
+72. Utilize comentários para se lembrar do raciocínio por trás de uma decisão de design.
+73. Comente um bloco de código que realiza uma tarefa específica, resumindo essa tarefa.
+74. Use comentários para indicar o início e o fim de uma função ou bloco de código importante.
+75. Revise um trecho de código e adicione comentários para esclarecer partes que possam ser confusas.
+
+## PHP: Sintaxe (25 exercícios)
+
+76. Escreva um script PHP com a tag de abertura e fechamento corretas.
+77. Declare uma variável chamada `$contador` e atribua o valor 0 a ela, terminando a linha com o ponto e vírgula correto.
+78. Imprima a string "Olá" usando `echo` e finalize a declaração com ponto e vírgula.
+79. Crie um bloco de código dentro de uma estrutura `if` (sem definir a condição ainda).
+80. Defina uma constante chamada `PI` com o valor 3.14159.
+81. Crie um array chamado `$frutas` com três elementos: "maçã", "banana", "laranja".
+82. Acesse o primeiro elemento do array `$frutas` usando a sintaxe correta.
+83. Declare uma função chamada `saudar()` (sem definir o corpo da função ainda).
+84. Chame a função `saudar()` usando a sintaxe correta.
+85. Escreva um loop `for` que itere de 1 a 5 (sem definir o corpo do loop ainda).
+86. Escreva um loop `while` que execute enquanto uma variável `$condicao` for `true` (sem definir a variável ou o corpo do loop ainda).
+87. Crie uma estrutura condicional `if-else` básica (sem definir a condição ou os blocos de código ainda).
+88. Utilize a estrutura `elseif` em uma condição com múltiplas possibilidades.
+89. Crie uma estrutura `switch` básica para verificar o valor de uma variável.
+90. Utilize o operador de atribuição (`=`) para atribuir o valor "PHP" a uma variável `$linguagem`.
+91. Utilize o operador de adição (`+`) para somar dois números.
+92. Utilize o operador de concatenação (`.`) para unir duas strings.
+93. Utilize o operador de comparação de igualdade (`==`) em uma condição `if`.
+94. Utilize o operador de comparação de identidade (`===`) em uma condição `if`.
+95. Utilize o operador lógico AND (`&&`) em uma condição `if`.
+96. Utilize o operador lógico OR (`||`) em uma condição `if`.
+97. Utilize o operador de negação lógica (`!`) para inverter o valor de uma variável booleana.
+98. Comente uma linha de código usando a sintaxe de comentário de linha única.
+99. Comente um bloco de código usando a sintaxe de comentário de múltiplas linhas.
+100. Certifique-se de que todas as suas declarações PHP terminam com o ponto e vírgula correto em todos os exercícios anteriores.
+
+Espero que estes exercícios sejam úteis para o seu aprendizado em PHP! Se tiver mais alguma dúvida ou precisar de algo mais, é só me dizer. 😊
