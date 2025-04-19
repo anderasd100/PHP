@@ -76,3 +76,22 @@ será atribuído a ela. No nosso exemplo, definimos a constante MENSAGEM com o v
 
 Para imprimir o tipo de dado de uma variável em PHP, você pode utilizar a função gettype().
 Esta função recebe uma variável como argumento e retorna uma string que representa o tipo de dado dessa variável.
+
+PHP A Palavra-chave estática
+Normalmente, quando uma função é concluída/executada, todas as suas variáveis são excluídas. No entanto, às vezes queremos que uma variável local NÃO seja excluída. Precisamos dele para um mais trabalho.
+
+Para fazer isso, use o static palavra-chave quando você declara pela primeira vez o variável:
+
+<?php
+function myTest() {
+  static $x = 0;
+  echo $x;
+  $x++;
+}
+
+myTest();
+myTest();
+myTest();
+?>
+
+Dica: Se uma variável é criada sem um valor, é atribuído automaticamente um valor de NULL.
