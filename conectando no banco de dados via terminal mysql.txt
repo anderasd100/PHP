@@ -1,0 +1,3 @@
+conectando ao banco de dados:
+
+mysql -u root -p // via terminal

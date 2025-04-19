@@ -22,7 +22,7 @@ $number = 77;
  $number = 77;
  echo --$number; //pré decremento
  echo "<br>";
- 
+
  $number = 77;
  $number--; //pós decremento
  echo $number;
