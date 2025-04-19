@@ -1,0 +1,111 @@
+## 100 Questões de PHP para Treinamento: Data Types e Strings
+
+Aqui estão 100 questões divididas entre os temas de Data Types e Strings em PHP para você praticar. As questões variam em dificuldade e abordam conceitos fundamentais e nuances importantes.
+
+**Data Types (Questões 1-50)**
+
+1.  Qual é o tipo de dado de um valor booleano em PHP?
+2.  Quais são os dois valores possíveis para o tipo de dado booleano?
+3.  Como você declara uma variável booleana com o valor `true` em PHP?
+4.  Qual é o tipo de dado para números inteiros em PHP?
+5.  Qual função em PHP pode ser usada para verificar se uma variável é do tipo inteiro?
+6.  Qual é o tipo de dado para números com casas decimais em PHP?
+7.  Qual função em PHP pode ser usada para verificar se uma variável é do tipo float?
+8.  Qual é a diferença entre um inteiro e um float em PHP?
+9.  O que acontece se você somar um inteiro e um float em PHP? Qual será o tipo do resultado?
+10. Como você declara um array em PHP?
+11. Quais são os dois tipos principais de arrays em PHP?
+12. Como você acessa o primeiro elemento de um array indexado em PHP?
+13. Como você acessa um elemento de um array associativo em PHP?
+14. Qual função em PHP pode ser usada para verificar se uma variável é um array?
+15. O que é um objeto em PHP?
+16. Qual é a classe base para todos os objetos em PHP se nenhuma classe específica for definida?
+17. Como você acessa uma propriedade de um objeto em PHP?
+18. Qual função em PHP pode ser usada para verificar se uma variável é um objeto?
+19. O que é o tipo de dado `null` em PHP?
+20. Como você atribui o valor `null` a uma variável em PHP?
+21. Qual função em PHP pode ser usada para verificar se uma variável é `null`?
+22. Qual é a diferença entre uma variável não definida e uma variável com o valor `null`?
+23. O que é um resource em PHP? Dê um exemplo.
+24. Qual função em PHP pode ser usada para verificar se uma variável é um resource?
+25. Quais são os tipos escalares em PHP?
+26. Quais são os tipos compostos em PHP?
+27. Qual é a diferença entre tipos escalares e compostos?
+28. O que é type hinting em PHP?
+29. Como você declara o type hint para um inteiro em uma função?
+30. Como você declara o type hint para um array em uma função?
+31. O que acontece se você passar um tipo de dado incorreto para uma função com type hinting (em modo strict)?
+32. O que é type casting em PHP?
+33. Como você converte uma string para um inteiro em PHP?
+34. Como você converte um inteiro para uma string em PHP?
+35. Qual é a diferença entre type casting implícito e explícito?
+36. O que é a função `isset()` em PHP? Para que ela é usada?
+37. O que a função `empty()` verifica em PHP?
+38. Qual a diferença entre `isset()` e `empty()`?
+39. O que a função `unset()` faz com uma variável em PHP?
+40. Qual o resultado de comparar um inteiro com uma string numérica usando `==` em PHP?
+41. Qual o resultado de comparar um inteiro com uma string numérica usando `===` em PHP?
+42. Como você verifica o tipo de dado de uma variável em PHP?
+43. O que é o modo strict de tipos em PHP? Como habilitá-lo?
+44. Quais são os benefícios de usar o modo strict de tipos?
+45. O que acontece se você tentar acessar um índice inexistente em um array em PHP?
+46. Como você pode verificar se uma chave existe em um array em PHP?
+47. Qual é o comportamento do PHP em relação à conversão de tipos em operações aritméticas?
+48. Como você pode forçar a conversão de um valor para booleano em PHP?
+49. Quais valores são considerados "falsy" (falsos) em um contexto booleano em PHP?
+50. Quais valores são considerados "truthy" (verdadeiros) em um contexto booleano em PHP?
+
+**Strings (Questões 51-100)**
+
+51. Como você declara uma string literal em PHP usando aspas simples?
+52. Como você declara uma string literal em PHP usando aspas duplas?
+53. Qual a principal diferença entre strings com aspas simples e aspas duplas em PHP?
+54. Como você insere o valor de uma variável diretamente dentro de uma string com aspas duplas em PHP?
+55. Como você concatena strings em PHP?
+56. Qual é o operador de concatenação de strings em PHP?
+57. Como você escapa um caractere especial dentro de uma string com aspas simples? Dê um exemplo.
+58. Como você escapa um caractere especial dentro de uma string com aspas duplas? Dê um exemplo.
+59. Qual função em PHP retorna o comprimento de uma string?
+60. Como você acessa um caractere específico em uma string em PHP?
+61. Qual função em PHP converte uma string para letras minúsculas?
+62. Qual função em PHP converte uma string para letras maiúsculas?
+63. Qual função em PHP capitaliza a primeira letra de uma string?
+64. Qual função em PHP capitaliza a primeira letra de cada palavra em uma string?
+65. Qual função em PHP remove espaços em branco do início e do final de uma string?
+66. Quais funções em PHP removem espaços em branco apenas do início ou apenas do final de uma string?
+67. Como você substitui todas as ocorrências de uma substring por outra em uma string?
+68. Como você substitui uma parte de uma string por outra, especificando a posição inicial e o comprimento?
+69. Como você divide uma string em um array de substrings usando um delimitador?
+70. Como você junta os elementos de um array em uma string usando um delimitador?
+71. Como você encontra a primeira ocorrência de uma substring dentro de uma string?
+72. Qual função retorna a posição da primeira ocorrência de uma substring (case-insensitive)?
+73. Como você encontra a última ocorrência de uma substring dentro de uma string?
+74. Como você extrai uma parte de uma string (substring) especificando a posição inicial e o comprimento?
+75. Como você inverte uma string em PHP?
+76. Como você compara duas strings em PHP de forma case-sensitive?
+77. Como você compara duas strings em PHP de forma case-insensitive?
+78. Qual função em PHP calcula a similaridade entre duas strings?
+79. Como você formata uma string para exibir números com um número específico de casas decimais?
+80. Como você formata uma string para exibir datas e horas?
+81. O que são expressões regulares em PHP? Para que são usadas?
+82. Qual função em PHP realiza uma correspondência de padrão com expressões regulares?
+83. Como você codifica uma string para URL em PHP?
+84. Como você decodifica uma string codificada para URL em PHP?
+85. Como você codifica uma string para HTML em PHP para evitar problemas de segurança (XSS)?
+86. Como você decodifica entidades HTML para a string original em PHP?
+87. O que é a função `printf()` em PHP? Como ela funciona?
+88. O que é a função `sprintf()` em PHP? Qual a diferença para `printf()`?
+89. Como você usa placeholders em `printf()` ou `sprintf()` para formatar diferentes tipos de dados?
+90. Como você formata um número como moeda em PHP?
+91. Como você compara strings usando operadores de comparação (`>`, `<`, `>=`, `<=`) em PHP? Qual a base para a comparação?
+92. O que são heredocs em PHP? Como você os declara?
+93. Quais são os benefícios de usar heredocs para strings longas?
+94. O que são nowdocs em PHP? Como eles se diferenciam dos heredocs?
+95. Como você usa variáveis dentro de heredocs?
+96. Variáveis são interpretadas dentro de nowdocs?
+97. Como você itera sobre os caracteres de uma string em PHP?
+98. Como você conta o número de palavras em uma string em PHP?
+99. Como você embaralha os caracteres de uma string aleatoriamente em PHP?
+100. Como você verifica se uma string começa com uma determinada substring em PHP? E se termina com uma determinada substring?
+
+Espero que estas questões sejam úteis para o seu treinamento em PHP! Boa sorte!

@@ -56,33 +56,6 @@ Olá! Claro, com prazer te ajudo a criar esses exercícios em PHP. Aqui estão 1
 49. Modifique o segundo elemento do array `$cores` para uma nova cor.
 50. Crie uma variável `$objeto` e atribua um objeto stdClass vazio a ela. Adicione uma propriedade "nome" a este objeto.
 
-## PHP: Comentários (25 exercícios)
-
-51. Adicione um comentário de linha única no início de um script PHP explicando seu propósito.
-52. Adicione um comentário de linha única dentro de um bloco de código explicando uma linha específica.
-53. Utilize comentários de múltiplas linhas para descrever um bloco de código mais extenso.
-54. Comente uma linha de código que você não quer que seja executada temporariamente.
-55. Use comentários para explicar a lógica por trás de um cálculo matemático.
-56. Comente o nome e a data de criação do script no início do arquivo.
-57. Utilize comentários para descrever os parâmetros de uma função (mesmo que a função não exista ainda).
-58. Comente a saída esperada de um trecho de código.
-59. Use comentários para indicar possíveis melhorias futuras no código.
-60. Comente uma estrutura de controle (`if`, `for`, `while`) explicando sua condição ou iteração.
-61. Adicione um comentário explicando o tipo de dado de uma variável em um ponto específico do código.
-62. Utilize comentários para separar diferentes seções lógicas do seu script.
-63. Comente a atribuição de um valor a uma variável, explicando o significado desse valor.
-64. Use comentários para documentar o autor de uma determinada parte do código.
-65. Comente a inclusão de um arquivo externo usando `include` ou `require`.
-66. Adicione um comentário "TODO" para marcar uma parte do código que precisa ser revisada ou implementada.
-67. Utilize comentários para explicar o tratamento de um possível erro ou exceção (mesmo que não haja tratamento ainda).
-68. Comente a declaração de uma constante, explicando seu propósito.
-69. Use comentários para descrever os elementos de um array.
-70. Comente a criação de um objeto, explicando a classe à qual ele pertence.
-71. Adicione comentários para tornar o código mais legível para outros desenvolvedores.
-72. Utilize comentários para se lembrar do raciocínio por trás de uma decisão de design.
-73. Comente um bloco de código que realiza uma tarefa específica, resumindo essa tarefa.
-74. Use comentários para indicar o início e o fim de uma função ou bloco de código importante.
-75. Revise um trecho de código e adicione comentários para esclarecer partes que possam ser confusas.
 
 ## PHP: Sintaxe (25 exercícios)
 
