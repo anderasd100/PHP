@@ -38,7 +38,9 @@ null */
 //Constante:
 
 define ("NUMERO", 77);
-echo NUMERO;
+if (defined("NUMERO")){
+    echo "Foi definido";
+}
 ?>
 
 </body>
