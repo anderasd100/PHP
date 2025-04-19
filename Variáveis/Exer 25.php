@@ -4,7 +4,7 @@
 $objeto = new stdClass();
 
 # Adicione uma propriedade "nome" a este objeto.
-$objeto->nome = "Vaso de planta";
+$objeto->nome = "Exemplo de Nome";
 
 # Para verificar, você pode exibir o objeto (isso mostrará suas propriedades)
 var_dump($objeto);
