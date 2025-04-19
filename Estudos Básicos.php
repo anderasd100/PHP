@@ -95,3 +95,48 @@ myTest();
 ?>
 
 Dica: Se uma variável é criada sem um valor, é atribuído automaticamente um valor de NULL.
+
+Nota Há uma grande diferença entre aspas duplas e citações únicas em PHP.
+Aspas duplas processam caracteres especiais, aspas simples não.
+
+O PHP strlen() função retorna o comprimento de uma string.
+
+O PHP str_word_count() a função conta o número de palavras em uma string.
+
+O PHP strpos() a função procura um texto específico dentro de uma string. 
+Dica: A primeira posição de caractere em uma string é 0 (não 1).
+
+O strtoupper() função retorna a string em maiúsculas.
+O strtolower() função retorna a string em minúsculas.
+
+O PHP str_replace() função substitui alguns caracteres por outros caracteres em uma string.
+Substitua o texto "World" por "Dolly":
+
+$x = "Hello World!";
+echo str_replace("World", "Dolly", $x)
+
+O PHP strrev() função inverte uma string.
+
+O trim() remove qualquer espaço em branco do início ou do fim:
+
+$x = " Hello World! ";
+echo trim($x);
+
+
+O PHP explode() função divide uma string em uma matriz.
+Nota: O separador é necessário.
+$x = "Hello World!";
+$y = explode(" ", $x);
+
+//Use the print_r() function to display the result:
+print_r($y);
+
+/*
+Result:
+Array ( [0] => Hello [1] => World! )
+*/
+
+
+Você pode retornar um intervalo de caracteres usando o substr() função.
+$x = "Hello World!";
+echo substr($x, 6, 5);
