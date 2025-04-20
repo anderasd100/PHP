@@ -140,3 +140,6 @@ Array ( [0] => Hello [1] => World! )
 Você pode retornar um intervalo de caracteres usando o substr() função.
 $x = "Hello World!";
 echo substr($x, 6, 5);
+
+O operador de identidade (===) é útil quando você precisa de uma comparação estrita,
+ garantindo que não apenas o valor, mas também o tipo das variáveis correspondam.

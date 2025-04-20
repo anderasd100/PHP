@@ -26,4 +26,3 @@ if ($numero === $texto) {
     echo "A variável \$numero não é idêntica à variável \$texto. Eles têm o mesmo valor, mas tipos diferentes.";
 }
 ?>
-
