@@ -24,5 +24,5 @@ echo $pessoa["nome"];  // Saída: João
 echo "<br>";
 echo $pessoa["idade"]; // Saída: 30
 echo "<br>";
-echo $pessoa["cidade"]; // Saída: 30
+echo $pessoa["cidade"]; // Saída:São Paulo
 ?>
