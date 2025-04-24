@@ -1,0 +1,10 @@
+O Laravel não tem uma configuração interna para habilitar ou desabilitar extensões do PHP. Essa é uma configuração que precisa ser feita no nível da sua instalação do PHP.
+
+Para recapitular os passos gerais:
+
+Localize o arquivo php.ini que o seu PHP está usando.
+Abra o arquivo php.ini em um editor de texto.
+Procure pela linha ;extension=openssl.
+Remova o ponto e vírgula (;) para habilitar a extensão.
+Salve o arquivo php.ini.
+Reinicie o seu servidor web local (Apache, Nginx, etc.) ou o serviço PHP-FPM para que as alterações no php.ini sejam aplicadas.
