@@ -1,29 +1,16 @@
 <?php
-//Utilize o operador de comparação de identidade (`===`) em uma condição `if`.
 
-$numero = 10;
-$texto = "10";
+#### Requisições (Todas as requisições vão para o INDEX)#####
 
-if ($numero === 10) {
-    echo "A variável \$numero é idêntica ao inteiro 10.";
-} else {
-    echo "A variável \$numero não é idêntica ao inteiro 10.";
-}
+// Bootstrap
+// Roteamento 
+// Autolowde
 
-echo "<br>";
+$num1 = 10;
+$num2 = 10;
 
-if ($texto === "10") {
-    echo "A variável \$texto é idêntica à string \"10\".";
-} else {
-    echo "A variável \$texto não é idêntica à string \"10\".";
-}
+$somar = $num1 + $num2;
+echo "<h5>Soma:</h5>", $somar;
 
-echo "<br>";
-
-if ($numero === $texto) {
-    echo "A variável \$numero é idêntica à variável \$texto.";
-} else {
-    echo "A variável \$numero não é idêntica à variável \$texto. Eles têm o mesmo valor, mas tipos diferentes.";
-}
 ?>
 
