@@ -11,7 +11,8 @@
 <?php
 //Chamado outro arquivo PHP:
 //Podemos usar o REQUIRE ou INCLUDE
-require './teste.php'; // Com a Include mostra o erro e executa.
+require './teste
+.php'; // Com a Include mostra o erro e executa.
 ?>
 
 
