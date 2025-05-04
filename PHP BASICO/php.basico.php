@@ -16,7 +16,7 @@ echo "<br>"; echo "<br>";
 */
 $Num1 = 77;
 $Num2 = 66;
-echo "Soma dos valores {$Num1} e {$Num2} é:__________________ ", ($Num1 + $Num2);
+echo "<font color='green'>Soma dos valores {$Num1} e {$Num2} é:</font>__________________ ", ($Num1 + $Num2);
 echo "<br>";
 echo "Subtração dos valores {$Num1} e {$Num2} é:_____________ ", ($Num1 - $Num2);
 echo "<br>";
@@ -138,3 +138,5 @@ $Var = "123";
 intval($Var);
 echo "{$Var}5";
 ?>
+
+<?php $Zaretuna = 77; ?>
